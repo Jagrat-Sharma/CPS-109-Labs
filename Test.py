@@ -385,5 +385,13 @@ print(next_item(it))
 print(next_item(it))
 print(next_item(it))
 """
-n = [1,4,6,2,5,7]
-print(n[1:-1])
+
+
+def same_first_last(nums):
+    if nums[0] == nums[-1]:
+        return True
+    else:
+        return False
+
+
+assert same_first_last([1, 2, 3]) == True

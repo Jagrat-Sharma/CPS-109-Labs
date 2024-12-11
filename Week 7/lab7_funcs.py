@@ -134,3 +134,6 @@ def nested_reverse(items):
         return nested_reverse(items[1:]) + [items[0]]
     # return nested_reverse(items[1:]) + [nested_reverse(items[0]) if type(items[0]) == list else items[0]] if items else []
 
+try:
+    pass
+finally:
